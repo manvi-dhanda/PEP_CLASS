@@ -1,0 +1,45 @@
+Ques :Input 2 nos. as per user perform the perations like add, sub,multi,divide,left shift,right shift etc
+in CPP
+
+Solu: #include <iostream>
+using namespace std;
+int main()
+{
+    string op;
+    int a,b;
+    cin>>op>>a>>b;
+    if(op="add"){
+        cout<<(a+b)<<endl;
+    }
+    if(op="sub")
+    {
+        cout<<(a-b)<<endl;
+    }
+    if(op="multi")
+    {
+        cout<<(a*b)<<endl;
+    }
+    if(op="divide")
+    {
+        cout<<(a/b)<<endl;
+    }
+    if(op="bsr")
+    {
+        cout<<(a>>b)<<endl;
+    }
+    if(op="bsl")
+    {
+        cout<<(a<<b)<<endl;
+    }
+}
+
+Ques: An array of size 3 . a short int .The address of first is 10 what will be the address of the other elements.
+Ques: WAP that takes 9 elements stores them in 1-d Array an then stores it in 2-D Array of size 3*3 in the same order.
+import java.util.*;
+class user{
+    public static void main(String args[])
+    {
+        Scanner Sc=new Scanner(System.in);
+        int arr[9]=sc.nextInt();
+    }
+}
